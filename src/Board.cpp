@@ -1,5 +1,4 @@
 /* Member function definitions for the class "Board". */
-/* This .cpp file only takes care of the visual drawing rather than the logic of Rotate 4. */
 
 #include "Board.hpp"
 #include "MyConstants.hpp"
