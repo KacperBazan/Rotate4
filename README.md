@@ -7,7 +7,7 @@
 </div>
 
 <p align="center">
-<img src ="https://github.com/KacperBazan/Rotate4/blob/main/img/Board1.png" width="550" title="A game of Rotate 4 in action.">
+<img src ="https://github.com/KacperBazan/Rotate4/blob/main/img/Board1.PNG" width="550" title="A game of Rotate 4 in action.">
 </p>
   
 ## Installation
@@ -40,7 +40,7 @@ I am still learning CMAKE, so for the time being, please build this using Visual
 
 ## More Pictures
 <p align="center">
-<img src ="https://github.com/KacperBazan/Rotate4/blob/main/img/Board1.png" width="550" title="A game of Rotate 4 in action.">
+<img src ="https://github.com/KacperBazan/Rotate4/blob/main/img/Board1.PNG" width="550" title="A game of Rotate 4 in action.">
 </p>
 
 
