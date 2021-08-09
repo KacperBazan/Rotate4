@@ -92,7 +92,7 @@ Board::Board()
 	for (sf::CircleShape& win_token : m_winning_tokens)
 	{
 		win_token.setRadius(token_radius - 15.0f);
-		win_token.setFillColor(sf::Color::Magenta);
+		win_token.setFillColor(Constants::win_col);
 		win_token.setOrigin({ token_radius - 15.0f, token_radius - 15.0f });
 	}
 
@@ -105,7 +105,6 @@ Board::Board()
 		}
 	}
 }
-
 
 ///Note: Can overload ++ operator.
 /* Increment m_rotation*/

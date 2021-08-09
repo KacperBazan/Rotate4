@@ -1,5 +1,6 @@
 #include "Board.hpp"
 
+/* Check if there is a 4-in-a-row anywhere on the board.*/
 void Board::updateGameState()
 {
 	/* Check Verticals */

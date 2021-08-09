@@ -1,5 +1,6 @@
 #include "Board.hpp"
 
+/* Set the game state of the board using a particular player's token. */
 void Board::setGameState(const TokenState& winner)
 {
 	switch (winner)

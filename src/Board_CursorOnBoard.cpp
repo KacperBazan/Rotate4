@@ -1,14 +1,15 @@
 #include "Board.hpp"
 #include "MyConstants.hpp"
 
+/* Returns true if the cursor is over the board on the screen. */
 bool Board::cursorOnBoard(sf::Vector2f cursor)
 {
 	using Constants::center;
 	using Constants::board_width;
 	using Constants::board_height;
 
-	sf::Vector2f tl{};
-	sf::Vector2f br{};
+	sf::Vector2f tl{}; // Top left corner of the board.
+	sf::Vector2f br{}; // Bottom right corner of the board.
 
 	if (m_rotation == BoardRotation::Rotation_0 || m_rotation == BoardRotation::Rotation_2) // Horizontal.
 	{

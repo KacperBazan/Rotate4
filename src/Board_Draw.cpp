@@ -16,13 +16,11 @@ void Board::draw(sf::RenderWindow& window)
 		window.draw(circle);
 	}
 
-
 	/* Draw glow of winning tokens. */
 	for (sf::CircleShape& win_token : m_winning_tokens)
 	{
 		window.draw(win_token);
 	}
-
 
 	/* Draw each token. */
 	for (auto& i : m_tokens)
@@ -32,7 +30,6 @@ void Board::draw(sf::RenderWindow& window)
 			window.draw(token);
 		}
 	}
-
 
 	window.display();
 }

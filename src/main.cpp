@@ -6,7 +6,7 @@
 
 int main()
 {
-	/* Window Vars */
+	/* Window Variables */
 	sf::ContextSettings settings;
 	settings.antialiasingLevel = 8;
 	sf::RenderWindow window(sf::VideoMode(Constants::screen_width, Constants::screen_height), "Rotate4 by Kacper Bazan", sf::Style::Close, settings);
@@ -24,6 +24,7 @@ int main()
 				window.close();
 		}
 
+		/* If the game is not finished, continue highlighting new positions. */
 		if (board.getGameState() == GameState::Ongoing)
 		{
 			board.highlight((sf::Vector2f)(sf::Mouse::getPosition(window)), window);

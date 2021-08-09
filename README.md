@@ -1,13 +1,13 @@
 <div align="center">
-  <h1>The Knight's Walk</h1>
-        <p><i>Horsey make ellll shape!</i></p>
-        <p><b>Finding complete knights' paths on different sized chessboards using C++.</b></p>
+  <h1>Rotate 4</h1>
+        <p><i>What if we just *spins board* pretend there's no gravity?</i></p>
+        <p><b>A gravitational twist on the classic game of Connect 4.</b></p>
         <img src=https://img.shields.io/badge/Build-Working-brightgreen>
         <img src=https://img.shields.io/badge/Progress-Complete-Green>
 </div>
 
 <p align="center">
-<img src ="https://github.com/KacperBazan/Knights-Walk/blob/main/img/KnightsWalk1.jpg" width="550" title="A complete Knight's walk on an 8 by 8 chessboard.">
+<img src ="https://github.com/KacperBazan/Rotate4/blob/main/img/Board1.png" width="550" title="A game of Rotate 4 in action.">
 </p>
   
 ## Installation
@@ -38,17 +38,9 @@ I am still learning CMAKE, so for the time being, please build this using Visual
 24. Rebuild one more time.
 25. Exectuable will be located in ```build/Debug``` or ```build/Release``` depending on which build type you used in Visual Studio.
 
-## How to use?
-1. Navigate to the ```main.cpp``` file.
-2. Navigate to the ```int main()``` entry point.
-3. Change the amount of rows and collumns with the variables ```cols``` and ```rows```.
-4. Navigate to the declaration of a ```Knight```.
-5. Change it's position from (0,0) to something else by altering the numbers in ```Knight knight{0,0};```.
-6. Build and run the executable.
-
 ## More Pictures
 <p align="center">
-<img src ="https://github.com/KacperBazan/Knights-Walk/blob/main/img/KnightsWalk2.jpg" width="550" title="A complete Knight's walk on a 9 by 9 chessboard.">
+<img src ="https://github.com/KacperBazan/Rotate4/blob/main/img/Board1.png" width="550" title="A game of Rotate 4 in action.">
 </p>
 
 

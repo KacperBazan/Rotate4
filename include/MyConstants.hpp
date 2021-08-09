@@ -10,6 +10,7 @@ namespace Constants
 
 	/* Cosmetic Variables */
 	const sf::Color bg{ sf::Color(49, 46, 43) };
+	const sf::Color win_col{ sf::Color(49, 46, 43) };
 
 	/* Board Variables */
 	const sf::Color board_col{ sf::Color(208,218,228) };

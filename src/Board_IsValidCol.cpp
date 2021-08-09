@@ -1,6 +1,7 @@
 #include "Board.hpp"
 #include <cassert>
 
+/* Returns true if the collumn isn't blocked by the sides blocking number. */
 bool Board::isValidCol(int collumn)
 {
 	TokenState Empty{ TokenState::Empty };

@@ -1,6 +1,7 @@
 #include "Board.hpp"
 #include "MyConstants.hpp"
 
+/* Changes the token state in a particulat position, as well as changing color. */
 void Board::dropToken(int slot, int highest_spot)
 {
 	sf::Color token_color{};

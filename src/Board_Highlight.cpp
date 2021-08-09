@@ -82,6 +82,8 @@ void Board::highlight(sf::Vector2f cursor, sf::RenderWindow& window)
 			break;
 		}
 
+		/*	If a token is highlighted and clicked, drop the token and rotate the board
+			for the next player. */
 		if (sf::Mouse::isButtonPressed(sf::Mouse::Button::Left))
 		{
 			dropToken(slot, highest_spot);
